@@ -10,8 +10,10 @@ Relies on deep mutational scanning data from Blooms lab available here:
 - Anti-body escape data from https://doi.org/10.1016/j.chom.2020.11.007 as `Tableofmutation_antibody-escape_fraction_scores.csv`
 
 ## Setup and run
-Using `conda` the 
-`conda create -n bibax python=3.7`
+Using `conda` the we can set up an environment using
+`conda create -n bibax python=3.7 numpy scipy matplotlib pandas`
+
+We can then activate the environment and run the analysis
 `conda activate bibax`
-`conda install numpy scipy matplotlib pandas`
+
 `python analysis-pipeline.py`
